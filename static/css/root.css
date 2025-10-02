@@ -130,7 +130,7 @@ html {
     /*橙色渐变+黑色svg**/
 
     --name: 主题3;
-    --main_bg_color: linear-gradient(50deg, #fea323, #ffffff);
+    --main_bg_color: linear-gradient(50deg, #ffaa34, #ffffff);
     --main_text_color: #1c1c1c;
     --gradient: linear-gradient(120deg, #2384ff, #00b175 30%, #f1630f 60%);
     --purple_text_color: #FCB653;
