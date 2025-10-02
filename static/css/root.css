@@ -130,17 +130,17 @@ html {
     /*橙色渐变+黑色svg**/
 
     --name: 主题3;
-    --main_bg_color: linear-gradient(50deg, #ffaa34, #ffffff);
+    --main_bg_color: linear-gradient(50deg, #FCB653, #ffffff);
     --main_text_color: #1c1c1c;
     --gradient: linear-gradient(120deg, #2384ff, #00b175 30%, #f1630f 60%);
     --purple_text_color: #FCB653;
-    --text_bg_color: #f1630f;
+    --text_bg_color: #f1630f 60%;
     --item_bg_color: rgba(249, 250, 251, 0.5);
     --item_hover_color: rgba(244, 245, 246, 0.8);
     --item_left_title_color: #000000;
     --item_left_text_color: #494949;
     --footer_text_color: #222222;
-    --left_tag_item: linear-gradient(50deg, #fea323, #ffffff);
+    --left_tag_item: linear-gradient(50deg, #FCB653, #ffffff);
     --card_filter: 0px;
     --back_filter: 0px;
     --back_filter_color: #00000000;
