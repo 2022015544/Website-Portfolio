@@ -127,12 +127,12 @@ html {
 }
 
 html {
-    /*蓝色渐变+黑色svg**/
+    /*橙色渐变+黑色svg**/
 
     --name: 主题3;
-    --main_bg_color: linear-gradient(50deg, #a2d1ff, #ffffff);
-    --main_text_color: #000000;
-    --gradient: linear-gradient(120deg, #bd34fe, #e0321b 30%, #41d1ff 60%);
+    --main_bg_color: linear-gradient(50deg, #FCB653, #ffffff);
+    --main_text_color: #FFFFFF;
+    --gradient: linear-gradient(120deg, #2384ff, #00b175 30%, #f1630f 60%);
     --purple_text_color: #747bff;
     --text_bg_color: rgb(196 217 251);
     --item_bg_color: rgba(249, 250, 251, 0.5);
