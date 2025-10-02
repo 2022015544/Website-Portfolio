@@ -169,6 +169,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fpsElement.id = 'fps';
     fpsElement.style.zIndex = '10000';
     fpsElement.style.position = 'fixed';
+    fpsElement.style.display = "none";
     fpsElement.style.left = '0';
     document.body.insertBefore(fpsElement, document.body.firstChild);
 
