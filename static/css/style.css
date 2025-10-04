@@ -877,14 +877,14 @@ footer {
     right: 50%;
 }
 
-.aboutItem {
+/*.aboutItem {
     flex-direction: column;
     justify-content: flex-start;
-    height: auto;       /* 允许根据内容自适应高度 */
-    min-height: 120px;  /* 给个最小高度，避免太扁 */
-    width: 100%;        /* 占满一行 */
-    cursor: default;    /* 鼠标指针不用手型 */
-    overflow: visible;  /* 不裁剪内容 */
+    height: auto;       
+    min-height: 120px;  
+    width: 100%;        
+    cursor: default;    
+    overflow: visible;  
     background-color: var(--item_bg_color);
     transition: background-color 0.3s ease;
   }
@@ -899,5 +899,5 @@ footer {
     font-size: 13px;
     color: var(--item_left_text_color);
     margin-top: 8px;
-  }
+  }*/
   
