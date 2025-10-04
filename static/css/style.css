@@ -62,7 +62,7 @@ html[data-theme="Dark"] {
     
     --main_text_color: #fff;
     --gradient:linear-gradient(120deg, #00c7f2, #ff64c3 30%, rgb(255, 255, 255) 60%);
-    --purple_text_color: #fcb653;
+    --purple_text_color: #ff64c3;
     --text_bg_color: rgb(26, 4, 48);
     --item_bg_color: rgb(19, 20, 24);
     --item_hover_color: rgb(19, 23, 27);
