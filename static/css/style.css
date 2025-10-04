@@ -53,7 +53,7 @@ a:focus {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: var(--main_bg_color, linear-gradient(50deg, #a2d0ff, #ffffff));
+    background-color: var(--main_bg_color, linear-gradient(50deg, #fdc577, #ffffff));
 }
 
 
@@ -62,7 +62,7 @@ html[data-theme="Dark"] {
     
     --main_text_color: #fff;
     --gradient:linear-gradient(120deg, #00c7f2, #ff64c3 30%, rgb(255, 255, 255) 60%);
-    --purple_text_color: #ff64c3;
+    --purple_text_color: #fd98d6;
     --text_bg_color: rgb(26, 4, 48);
     --item_bg_color: rgb(19, 20, 24);
     --item_hover_color: rgb(19, 23, 27);
@@ -284,7 +284,7 @@ body {
 }
 
 #line li:first-child .focus:first-child {
-    background-color: #aaffcd;
+    background-color: #9be9a8;
     animation: focus 1.8s ease infinite;
 }
 
