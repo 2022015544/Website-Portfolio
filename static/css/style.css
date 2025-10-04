@@ -877,44 +877,27 @@ footer {
     right: 50%;
 }
 
-/* About me 特殊样式 */
 .aboutItem {
     flex-direction: column;
     justify-content: flex-start;
-    height: auto;
-    min-height: 100px;
-    width: 100%;
-    cursor: pointer;
-    overflow: hidden;
-    transition: max-height 0.6s ease, background-color 0.3s ease;
-    max-height: 80px; /* 默认收起 */
+    height: auto;       /* 允许根据内容自适应高度 */
+    min-height: 120px;  /* 给个最小高度，避免太扁 */
+    width: 100%;        /* 占满一行 */
+    cursor: default;    /* 鼠标指针不用手型 */
+    overflow: visible;  /* 不裁剪内容 */
+    background-color: var(--item_bg_color);
+    transition: background-color 0.3s ease;
   }
-  
   .aboutItem:hover {
     background-color: var(--item_hover_color);
-    max-height: 400px; /* 展开显示 */
   }
-  
   .aboutItem h1 {
     font-size: 18px;
     margin-bottom: 8px;
   }
-  
-  .aboutItem .aboutPreview {
-    font-size: 14px;
-    color: var(--purple_text_color);
-  }
-  
   .aboutItem .aboutDetail {
     font-size: 13px;
     color: var(--item_left_text_color);
-    margin-top: 10px;
-    opacity: 0;
-    transition: opacity 0.6s ease;
-  }
-  
-  /* 鼠标悬停时文字展开 */
-  .aboutItem:hover .aboutDetail {
-    opacity: 1;
+    margin-top: 8px;
   }
   
