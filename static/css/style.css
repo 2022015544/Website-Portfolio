@@ -877,27 +877,4 @@ footer {
     right: 50%;
 }
 
-/*.aboutItem {
-    flex-direction: column;
-    justify-content: flex-start;
-    height: auto;       
-    min-height: 120px;  
-    width: 100%;        
-    cursor: default;    
-    overflow: visible;  
-    background-color: var(--item_bg_color);
-    transition: background-color 0.3s ease;
-  }
-  .aboutItem:hover {
-    background-color: var(--item_hover_color);
-  }
-  .aboutItem h1 {
-    font-size: 18px;
-    margin-bottom: 8px;
-  }
-  .aboutItem .aboutDetail {
-    font-size: 13px;
-    color: var(--item_left_text_color);
-    margin-top: 8px;
-  }*/
   
